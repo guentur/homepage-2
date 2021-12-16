@@ -169,6 +169,10 @@ body {
     text-align: justify;
 }
 
+.intro_text ul {
+    list-style-position: inside;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
@@ -178,6 +182,17 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+}
+
+.flex-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.skills__container {
+    margin: 0 auto;
 }
 
 /*
