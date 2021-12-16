@@ -169,6 +169,10 @@ body {
     text-align: justify;
 }
 
+.intro_text ul {
+    list-style-position: inside;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
